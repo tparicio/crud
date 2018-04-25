@@ -1,0 +1,40 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+#crud-logo {
+  font-size : 2em;
+  text-align: center;
+
+  & div {
+    text-align: center;
+
+    &:first-child {
+      line-height: 2em;
+      border-bottom: 1px solid #CCC;
+      margin-bottom: 5px;
+    }
+  }
+
+  & i {
+    display : inline-block;
+    margin : 0 10px;
+
+    /* Firefox */
+    -moz-transition: all 1s ease-in;
+    /* WebKit */
+    -webkit-transition: all 1s ease-in;
+    /* Opera */
+    -o-transition: all 1s ease-in;
+    /* Standard */
+    transition: all 1s ease-in;
+
+    &:hover {
+      color : $brand-color;
+    }
+  }
+
+  & span {
+    display : inline-block;
+    margin : 0  20px;
+  }
+}

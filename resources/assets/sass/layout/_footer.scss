@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+footer {
+  background: #333;
+  color : #EEE;
+  margin-top : 2em;
+
+  a {
+    color : $brand-color;
+
+    &:hover {
+      color : cyan;
+    }
+  }
+}
